@@ -5,7 +5,10 @@ CONFIG -= qt
 
 SOURCES += \
         main.cpp \
-        token_stream.cpp
+        token_stream.cpp \
+        variable.cpp
 
 HEADERS += \
-    token_stream.h
+    std_lib_facilities.h \
+    token_stream.h \
+    variable.h
